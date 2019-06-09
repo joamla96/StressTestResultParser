@@ -1,0 +1,563 @@
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking functionspicalc20190525091955.azurewebsites.net (be patient).....done
+
+
+Server Software:        
+Server Hostname:        functionspicalc20190525091955.azurewebsites.net
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES256-GCM-SHA384,2048,256
+TLS Server Name:        functionspicalc20190525091955.azurewebsites.net
+
+Document Path:          /api/CalculatePi?digits=100
+Document Length:        101 bytes
+
+Concurrency Level:      10
+Time taken for tests:   1.915 seconds
+Complete requests:      100
+Failed requests:        0
+Total transferred:      30600 bytes
+HTML transferred:       10100 bytes
+Requests per second:    52.21 [#/sec] (mean)
+Time per request:       191.534 [ms] (mean)
+Time per request:       19.153 [ms] (mean, across all concurrent requests)
+Transfer rate:          15.60 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:      122  124   2.5    124     132
+Processing:    44   60  37.8     48     251
+Waiting:       44   60  37.8     48     251
+Total:        166  185  38.1    172     373
+
+Percentage of the requests served within a certain time (ms)
+  50%    172
+  66%    175
+  75%    177
+  80%    181
+  90%    215
+  95%    275
+  98%    369
+  99%    373
+ 100%    373 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking functionspicalc20190525091955.azurewebsites.net (be patient).....done
+
+
+Server Software:        
+Server Hostname:        functionspicalc20190525091955.azurewebsites.net
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES256-GCM-SHA384,2048,256
+TLS Server Name:        functionspicalc20190525091955.azurewebsites.net
+
+Document Path:          /api/CalculatePi?digits=100
+Document Length:        101 bytes
+
+Concurrency Level:      100
+Time taken for tests:   0.479 seconds
+Complete requests:      100
+Failed requests:        0
+Total transferred:      30600 bytes
+HTML transferred:       10100 bytes
+Requests per second:    208.81 [#/sec] (mean)
+Time per request:       478.911 [ms] (mean)
+Time per request:       4.789 [ms] (mean, across all concurrent requests)
+Transfer rate:          62.40 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:      183  196  12.1    194     231
+Processing:    45  154  57.5    166     251
+Waiting:       45  154  57.5    166     251
+Total:        230  351  66.2    366     474
+
+Percentage of the requests served within a certain time (ms)
+  50%    366
+  66%    380
+  75%    400
+  80%    414
+  90%    441
+  95%    451
+  98%    470
+  99%    474
+ 100%    474 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking functionspicalc20190525091955.azurewebsites.net (be patient)
+
+
+Server Software:        
+Server Hostname:        functionspicalc20190525091955.azurewebsites.net
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES256-GCM-SHA384,2048,256
+TLS Server Name:        functionspicalc20190525091955.azurewebsites.net
+
+Document Path:          /api/CalculatePi?digits=100
+Document Length:        101 bytes
+
+Concurrency Level:      10
+Time taken for tests:   17.643 seconds
+Complete requests:      1000
+Failed requests:        0
+Total transferred:      306000 bytes
+HTML transferred:       101000 bytes
+Requests per second:    56.68 [#/sec] (mean)
+Time per request:       176.430 [ms] (mean)
+Time per request:       17.643 [ms] (mean, across all concurrent requests)
+Transfer rate:          16.94 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:      121  123   2.0    123     149
+Processing:    44   52  23.8     47     392
+Waiting:       44   52  23.8     47     392
+Total:        166  175  24.1    170     516
+
+Percentage of the requests served within a certain time (ms)
+  50%    170
+  66%    172
+  75%    174
+  80%    175
+  90%    179
+  95%    189
+  98%    245
+  99%    295
+ 100%    516 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking functionspicalc20190525091955.azurewebsites.net (be patient)
+
+
+Server Software:        
+Server Hostname:        functionspicalc20190525091955.azurewebsites.net
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES256-GCM-SHA384,2048,256
+TLS Server Name:        functionspicalc20190525091955.azurewebsites.net
+
+Document Path:          /api/CalculatePi?digits=100
+Document Length:        101 bytes
+
+Concurrency Level:      100
+Time taken for tests:   2.410 seconds
+Complete requests:      1000
+Failed requests:        0
+Total transferred:      306000 bytes
+HTML transferred:       101000 bytes
+Requests per second:    414.85 [#/sec] (mean)
+Time per request:       241.049 [ms] (mean)
+Time per request:       2.410 [ms] (mean, across all concurrent requests)
+Transfer rate:          123.97 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:      121  135  19.0    128     226
+Processing:    45   91  37.9     77     273
+Waiting:       45   90  37.9     76     273
+Total:        170  225  48.0    207     440
+
+Percentage of the requests served within a certain time (ms)
+  50%    207
+  66%    221
+  75%    235
+  80%    250
+  90%    298
+  95%    339
+  98%    379
+  99%    387
+ 100%    440 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking functionspicalc20190525091955.azurewebsites.net (be patient)
+
+
+Server Software:        
+Server Hostname:        functionspicalc20190525091955.azurewebsites.net
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES256-GCM-SHA384,2048,256
+TLS Server Name:        functionspicalc20190525091955.azurewebsites.net
+
+Document Path:          /api/CalculatePi?digits=100
+Document Length:        101 bytes
+
+Concurrency Level:      100
+Time taken for tests:   23.322 seconds
+Complete requests:      10000
+Failed requests:        0
+Total transferred:      3060000 bytes
+HTML transferred:       1010000 bytes
+Requests per second:    428.78 [#/sec] (mean)
+Time per request:       233.222 [ms] (mean)
+Time per request:       2.332 [ms] (mean, across all concurrent requests)
+Transfer rate:          128.13 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:      121  129   7.7    127     229
+Processing:    44  101 105.4     79    1411
+Waiting:       44  100 105.4     78    1411
+Total:        168  229 105.9    207    1536
+
+Percentage of the requests served within a certain time (ms)
+  50%    207
+  66%    218
+  75%    228
+  80%    237
+  90%    266
+  95%    319
+  98%    471
+  99%    820
+ 100%   1536 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking functionspicalc20190525091955.azurewebsites.net (be patient)
+
+
+Server Software:        
+Server Hostname:        functionspicalc20190525091955.azurewebsites.net
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES256-GCM-SHA384,2048,256
+TLS Server Name:        functionspicalc20190525091955.azurewebsites.net
+
+Document Path:          /api/CalculatePi?digits=100
+Document Length:        101 bytes
+
+Concurrency Level:      1000
+Time taken for tests:   18.123 seconds
+Complete requests:      10000
+Failed requests:        1
+   (Connect: 0, Receive: 0, Length: 1, Exceptions: 0)
+Non-2xx responses:      1
+Total transferred:      3048447 bytes
+HTML transferred:       1009899 bytes
+Requests per second:    551.78 [#/sec] (mean)
+Time per request:       1812.302 [ms] (mean)
+Time per request:       1.812 [ms] (mean, across all concurrent requests)
+Transfer rate:          164.27 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:      123  483 255.5    456    1246
+Processing:    97 1027 766.3    741    7221
+Waiting:       82  966 789.8    685    7161
+Total:        333 1510 784.4   1313    7400
+
+Percentage of the requests served within a certain time (ms)
+  50%   1313
+  66%   1598
+  75%   1838
+  80%   1968
+  90%   2492
+  95%   3024
+  98%   3782
+  99%   4242
+ 100%   7400 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking functionspicalc20190525091955.azurewebsites.net (be patient)...Total of 83 requests completed
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking functionspicalc20190525091955.azurewebsites.net (be patient).....done
+
+
+Server Software:        
+Server Hostname:        functionspicalc20190525091955.azurewebsites.net
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES256-GCM-SHA384,2048,256
+TLS Server Name:        functionspicalc20190525091955.azurewebsites.net
+
+Document Path:          /api/CalculatePi?digits=1000
+Document Length:        1001 bytes
+
+Concurrency Level:      100
+Time taken for tests:   1.988 seconds
+Complete requests:      100
+Failed requests:        0
+Total transferred:      120700 bytes
+HTML transferred:       100100 bytes
+Requests per second:    50.29 [#/sec] (mean)
+Time per request:       1988.318 [ms] (mean)
+Time per request:       19.883 [ms] (mean, across all concurrent requests)
+Transfer rate:          59.28 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:      121  174  23.1    183     220
+Processing:   191 1136 494.0   1210    1810
+Waiting:      191 1135 494.0   1210    1810
+Total:        361 1310 498.6   1378    1982
+
+Percentage of the requests served within a certain time (ms)
+  50%   1378
+  66%   1587
+  75%   1709
+  80%   1718
+  90%   1975
+  95%   1979
+  98%   1980
+  99%   1982
+ 100%   1982 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking functionspicalc20190525091955.azurewebsites.net (be patient)
+Total of 78 requests completed
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking functionspicalc20190525091955.azurewebsites.net (be patient)
+
+
+Server Software:        
+Server Hostname:        functionspicalc20190525091955.azurewebsites.net
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES256-GCM-SHA384,2048,256
+TLS Server Name:        functionspicalc20190525091955.azurewebsites.net
+
+Document Path:          /api/CalculatePi?digits=1000
+Document Length:        1001 bytes
+
+Concurrency Level:      100
+Time taken for tests:   15.441 seconds
+Complete requests:      1000
+Failed requests:        0
+Total transferred:      1205640 bytes
+HTML transferred:       1001000 bytes
+Requests per second:    64.76 [#/sec] (mean)
+Time per request:       1544.072 [ms] (mean)
+Time per request:       15.441 [ms] (mean, across all concurrent requests)
+Transfer rate:          76.25 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:      121  198 665.2    124    7417
+Processing:   160  614 497.1    444    2306
+Waiting:      160  614 497.1    444    2306
+Total:        283  813 824.9    579    9343
+
+Percentage of the requests served within a certain time (ms)
+  50%    579
+  66%    853
+  75%   1020
+  80%   1200
+  90%   1550
+  95%   1916
+  98%   2230
+  99%   3342
+ 100%   9343 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking functionspicalc20190525091955.azurewebsites.net (be patient)
+
+
+Server Software:        
+Server Hostname:        functionspicalc20190525091955.azurewebsites.net
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES256-GCM-SHA384,2048,256
+TLS Server Name:        functionspicalc20190525091955.azurewebsites.net
+
+Document Path:          /api/CalculatePi?digits=1000
+Document Length:        1001 bytes
+
+Concurrency Level:      100
+Time taken for tests:   80.864 seconds
+Complete requests:      10000
+Failed requests:        0
+Total transferred:      12066056 bytes
+HTML transferred:       10010000 bytes
+Requests per second:    123.66 [#/sec] (mean)
+Time per request:       808.640 [ms] (mean)
+Time per request:       8.086 [ms] (mean, across all concurrent requests)
+Transfer rate:          145.72 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:      121  388 2546.6    124   31738
+Processing:   155  413 218.7    370    2843
+Waiting:      155  413 218.7    370    2842
+Total:        278  801 2555.8    502   34294
+
+Percentage of the requests served within a certain time (ms)
+  50%    502
+  66%    595
+  75%    668
+  80%    700
+  90%    798
+  95%    960
+  98%   1414
+  99%   7689
+ 100%  34294 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking functionspicalc20190525091955.azurewebsites.net (be patient)
+
+
+Server Software:        
+Server Hostname:        functionspicalc20190525091955.azurewebsites.net
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES256-GCM-SHA384,2048,256
+TLS Server Name:        functionspicalc20190525091955.azurewebsites.net
+
+Document Path:          /api/CalculatePi?digits=1000
+Document Length:        1001 bytes
+
+Concurrency Level:      1000
+Time taken for tests:   52.468 seconds
+Complete requests:      10000
+Failed requests:        0
+Total transferred:      12068572 bytes
+HTML transferred:       10010000 bytes
+Requests per second:    190.59 [#/sec] (mean)
+Time per request:       5246.758 [ms] (mean)
+Time per request:       5.247 [ms] (mean, across all concurrent requests)
+Transfer rate:          224.63 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:      121  358 1809.0    133   31737
+Processing:   172 4388 1212.8   4381   12986
+Waiting:      172 4386 1214.1   4380   12986
+Total:        300 4746 2166.2   4553   36804
+
+Percentage of the requests served within a certain time (ms)
+  50%   4553
+  66%   4973
+  75%   5281
+  80%   5472
+  90%   6158
+  95%   7028
+  98%   8070
+  99%   8599
+ 100%  36804 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking functionspicalc20190525091955.azurewebsites.net (be patient).....done
+
+
+Server Software:        
+Server Hostname:        functionspicalc20190525091955.azurewebsites.net
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES256-GCM-SHA384,2048,256
+TLS Server Name:        functionspicalc20190525091955.azurewebsites.net
+
+Document Path:          /api/CalculatePi?digits=10000
+Document Length:        10001 bytes
+
+Concurrency Level:      10
+Time taken for tests:   257.123 seconds
+Complete requests:      100
+Failed requests:        0
+Total transferred:      1020800 bytes
+HTML transferred:       1000100 bytes
+Requests per second:    0.39 [#/sec] (mean)
+Time per request:       25712.273 [ms] (mean)
+Time per request:       2571.227 [ms] (mean, across all concurrent requests)
+Transfer rate:          3.88 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:      121  154 303.3    123    3157
+Processing: 11969 23764 10611.2  22365   45142
+Waiting:    11969 23764 10611.3  22365   45141
+Total:      12093 23918 10586.8  22487   45264
+
+Percentage of the requests served within a certain time (ms)
+  50%  22487
+  66%  30226
+  75%  32887
+  80%  35985
+  90%  39398
+  95%  42370
+  98%  45206
+  99%  45264
+ 100%  45264 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking functionspicalc20190525091955.azurewebsites.net (be patient)...This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking functionspicalc20190525091955.azurewebsites.net (be patient)
+
+
+Server Software:        
+Server Hostname:        functionspicalc20190525091955.azurewebsites.net
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES256-GCM-SHA384,2048,256
+TLS Server Name:        functionspicalc20190525091955.azurewebsites.net
+
+Document Path:          /api/CalculatePi?digits=10000
+Document Length:        10001 bytes
+
+Concurrency Level:      10
+Time taken for tests:   1782.804 seconds
+Complete requests:      1000
+Failed requests:        22
+   (Connect: 0, Receive: 0, Length: 22, Exceptions: 0)
+Non-2xx responses:      22
+Total transferred:      10017796 bytes
+HTML transferred:       9813472 bytes
+Requests per second:    0.56 [#/sec] (mean)
+Time per request:       17828.036 [ms] (mean)
+Time per request:       1782.804 [ms] (mean, across all concurrent requests)
+Transfer rate:          5.49 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:      121  123   4.0    123     214
+Processing: 10388 17652 23027.4  12966  241220
+Waiting:    10388 17651 23026.9  12965  241220
+Total:      10511 17775 23027.9  13088  241345
+
+Percentage of the requests served within a certain time (ms)
+  50%  13088
+  66%  14039
+  75%  16062
+  80%  17657
+  90%  24333
+  95%  27208
+  98%  35646
+  99%  121714
+ 100%  241345 (longest request)
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking functionspicalc20190525091955.azurewebsites.net (be patient)
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking functionspicalc20190525091955.azurewebsites.net (be patient)
+Total of 112 requests completed
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking functionspicalc20190525091955.azurewebsites.net (be patient)
